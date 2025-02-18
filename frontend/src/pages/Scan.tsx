@@ -90,7 +90,11 @@ function Scan() {
       console.log("Response:", data);
       if (e.target.textContent === "Ok" && phoneNumber !== "") {
         console.log("Submitting phone number: ", phoneNumber);
-        await send_number(phoneNumber);
+        try {
+          await send_number(phoneNumber);
+        } catch (err) {
+          console.log(err);
+        }
       }
       setNavbar(true);
       setImage("");
