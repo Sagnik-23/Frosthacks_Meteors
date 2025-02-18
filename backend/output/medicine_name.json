@@ -1,68 +1,32 @@
 {
   "medicines": [
     {
-      "name": "Nicardia R (Medicine Name Probability: High)",
-      "dosage": "20 (Dosage Details: Likely mg, though unit is not specified)",
-      "frequency": "Unspecified (Frequency details: til - May be abbreviation for 'till', which doesn't indicate frequency)",
-      "duration": "Unspecified (Duration details: Need more information)",
-      "route": "Oral (Route details: Generally assumed for tablets unless specified otherwise)",
-      "purpose": "Hypertension (Purpose details: Nicardia is commonly used to treat hypertension)",
-      "special_instructions": "Consult physician (Special Instructions: Follow doctor's instructions)"
+      "name": "Quel xway (Possible Medicine Name)",
+      "dosage": "Not specified",
+      "frequency": "PM (Possibly once in the evening)",
+      "duration": "Not specified",
+      "route": "Oral (Assumed)",
+      "purpose": "Not specified",
+      "special_instructions": "Not specified"
     },
     {
-      "name": "Jasix (Medicine Name Probability: High)",
-      "dosage": "40 (Dosage Details: Likely mg, though unit is not specified)",
-      "frequency": "Unspecified (Frequency details: ks - Unclear abbreviation, needs clarification)",
-      "duration": "Unspecified (Duration details: Need more information)",
-      "route": "Oral (Route details: Generally assumed for tablets unless specified otherwise)",
-      "purpose": "Unspecified (Purpose details: Further details are needed)",
-      "special_instructions": "Consult physician (Special Instructions: Follow doctor's instructions)"
+      "name": "Lowluton-HD (High Probability Medicine Name)",
+      "dosage": "1000",
+      "frequency": "1 \u00d71 (Once a day)",
+      "duration": "Not specified",
+      "route": "Oral (Assumed)",
+      "purpose": "Not specified",
+      "special_instructions": "Aus limituss (Meaning unclear, possibly indicating dosage limits or restrictions. Needs further context.)"
     },
     {
-      "name": "Rantac (Medicine Name Probability: High)",
-      "dosage": "150 (Dosage Details: Likely mg, though unit is not specified)",
-      "frequency": "Unspecified (Frequency details: BA - Unclear abbreviation, needs clarification)",
-      "duration": "Unspecified (Duration details: Need more information)",
-      "route": "Oral (Route details: Generally assumed for tablets unless specified otherwise)",
-      "purpose": "Acid reflux/GERD (Purpose details: Rantac (ranitidine) is an H2 receptor antagonist used to reduce stomach acid production)",
-      "special_instructions": "Take as directed by your doctor (Special Instructions: Follow doctor's instructions)"
-    },
-    {
-      "name": "Emesel (Medicine Name Probability: Medium)",
-      "dosage": "Unspecified (Dosage Details: Ave #8 indicates administration details related to Avenue, so not dosage.)",
-      "frequency": "Unspecified (Frequency details: Depends on dosage)",
-      "duration": "Unspecified (Duration details: Need more information)",
-      "route": "Unspecified (Route details: Need more information)",
-      "purpose": "Unspecified (Purpose details: Usually to stop nausea)",
-      "special_instructions": "Consult physician (Special Instructions: Follow doctor's instructions)"
-    },
-    {
-      "name": "Aulin (Medicine Name Probability: High)",
-      "dosage": "100 (Dosage Details: Likely mg, though unit is not specified)",
-      "frequency": "Unspecified (Frequency details: Needs more information)",
-      "duration": "Unspecified (Duration details: Need more information)",
-      "route": "Oral (Route details: Generally assumed for tablets unless specified otherwise)",
-      "purpose": "Pain relief and anti-inflammatory (Purpose details: Aulin (nimesulide) is a nonsteroidal anti-inflammatory drug (NSAID))",
-      "special_instructions": "Consult physician (Special Instructions: Follow doctor's instructions)"
-    },
-    {
-      "name": "Noloin (Medicine Name Probability: Medium)",
-      "dosage": "Unspecified (Dosage Details: Need More Information)",
-      "frequency": "Unspecified (Frequency details: IBA. is unclear, needs clarification)",
-      "duration": "Unspecified (Duration details: Need more information)",
-      "route": "Unspecified (Route details: Need more information)",
-      "purpose": "Unspecified (Purpose details: Need More Information)",
-      "special_instructions": "Consult physician (Special Instructions: Follow doctor's instructions)"
-    },
-    {
-      "name": "Douban (Medicine Name Probability: Low)",
-      "dosage": "Unspecified (Dosage Details: Lbs is weight, but not dosage)",
-      "frequency": "Unspecified (Frequency details: Needs more information)",
-      "duration": "Unspecified (Duration details: Need more information)",
-      "route": "Unspecified (Route details: Need more information)",
-      "purpose": "Unspecified (Purpose details: Further details are needed)",
-      "special_instructions": "Consult physician (Special Instructions: Follow doctor's instructions)"
+      "name": "Semper D (Possible Medicine Name)",
+      "dosage": "100 (Implies 100 units, but specific units missing. Needs further context.)",
+      "frequency": "QD (Once a day) He BBF (Possibly Before Breakfast, needs more context)",
+      "duration": "3 days",
+      "route": "Oral (Assumed)",
+      "purpose": "Not specified",
+      "special_instructions": "Complete fred Ral for 3 days (Three days). 'Complete fred Ral' is ambiguous and requires clarification. May refer to completing the treatment regime."
     }
   ],
-  "general_instructions": "Follow your doctor's instructions carefully. If any side effects persist or worsen, consult your doctor."
+  "general_instructions": "2m - ASPCY (5%) @ 1.650 x (300). This instruction is unclear and requires further context. It potentially involves a concentration and a measurement, but their relevance is unknown. Huerto NG & F H & Dance MPDAS Coffy-0. This also appears to be extraneous information with no clear medical significance."
 }
