@@ -76,26 +76,37 @@ function Scan() {
     const file = new File([blob], "prescription.png", { type: "image/png" });
     let data;
     try {
-      if (isLoggedIn && phoneNumber !== "" && e.target.textContent === "Ok")
-        data = await get_medicine_names(file, userDetails?.token, phoneNumber);
-      else if (isLoggedIn && phoneNumber === "")
-        data = await get_medicine_names(file, userDetails?.token);
-      else if (
-        !isLoggedIn &&
-        phoneNumber !== "" &&
+      if (
+        isLoggedIn &&
+        phoneNumber.length >= 10 &&
         e.target.textContent === "Ok"
-      )
-        data = await get_medicine_names(file, phoneNumber);
-      else data = await get_medicine_names(file);
-      console.log("Response:", data);
-      if (e.target.textContent === "Ok" && phoneNumber !== "") {
-        console.log("Submitting phone number: ", phoneNumber);
-        try {
-          await send_number(phoneNumber);
-        } catch (err) {
-          console.log(err);
-        }
+      ) {
+        console.log(
+          "Submitting phone number  ",
+          phoneNumber,
+          " image and not sending token"
+        );
+        data = await get_medicine_names(file, userDetails?.token, phoneNumber);
+      } else if (isLoggedIn) {
+        console.log("Submitting Image and sending token");
+        data = await get_medicine_names(file, userDetails?.token);
+      } else if (
+        !isLoggedIn &&
+        phoneNumber.length >= 10 &&
+        e.target.textContent === "Ok"
+      ) {
+        console.log("Submitting phone number  not  send token ", phoneNumber);
+        data = await get_medicine_names(file, "", phoneNumber);
+        console.log("radhe radhde");
+      } else {
+        console.log("Submitting Image not sending token");
+        data = await get_medicine_names(file);
       }
+      console.log("Response:", data);
+      // if (e.target.textContent === "Ok" && phoneNumber !== "") {
+      //   console.log("Submitting phone number: ", phoneNumber);
+      //   await send_number(phoneNumber);
+      // }
       setNavbar(true);
       setImage("");
       setIsLoading(false);

@@ -48,19 +48,3 @@ def ai_response(medical_data, query):
     except Exception as e:
         return f"❌ Error: {e}"
 
-# # Uncomment below to test:
-# if __name__ == "__main__":
-#     # medical_data = {
-#     #     "medicines": [
-#     #         {"name": "Betaloc", "dosage": "100mg", "frequency": "1 tab BID"},
-#     #         {"name": "Dorzolamidum", "dosage": "10 mg", "frequency": "1 tab BID"},
-#     #         {"name": "Cimetidine", "dosage": "50 mg", "frequency": "2 tabs TID"},
-#     #         {"name": "Oxprelol", "dosage": "50mg", "frequency": "1 tab QD"}
-#     #     ]
-    
-    
-#     with open(r"D:\hackthon\Frosthacks_Meteors\backend\output\medicine_name.json","r")as r:
-#         medical_data = json.load(r)
-        
-#     question = "Can you tell me when I should take these medicines?"
-#     print(ai_response(medical_data, question))

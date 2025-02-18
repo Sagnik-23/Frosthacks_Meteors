@@ -41,6 +41,7 @@ def extrect_text(file):
     # print(result.content)
 
     text = result.content.encode("utf-8", errors="replace").decode("utf-8")
+    print(text)
     with open("output/result_content.txt", "w") as output_file:
         output_file.write(text)
         output_file.close()

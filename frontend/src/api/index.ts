@@ -38,11 +38,12 @@ export const fetchGenericName = async (name : string) => {
 export const fetchAIResponse = async (message: string): Promise<string> => {
   try {
     console.log("Sending message to AI:", message);
-
+    const formData = new FormData()
+    formData.append("text", message);
     const response = await fetch(`${SERVER_URL}/ai_chat`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text: message }), // Send as JSON
+      // headers: { "Content-Type": "application/json" },
+      body: formData, // Send as JSON
     });
 
     console.log("Server Response Status:", response.status);
